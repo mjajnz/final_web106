@@ -35,14 +35,9 @@ body {
 }
 * img {
   object-fit: cover;
+  width: 100%;
 }
-@media screen and (max-width: 1180px) {
-  .anh {
-    max-height: 150px;
-    width: 100%;
-    height: 100%;
-  }
-}
+
 @media screen and (max-width: 992px) {
   .tour button {
     display: none;
