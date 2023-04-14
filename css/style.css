@@ -11,7 +11,12 @@ body {
 .card {
     margin: 10px !important;
 }
-.tour button {
+
+.xemthem {
+    width: 100%;
+    text-align: center;
+}
+.xemthem button {
   background-color: #fff;
   color: blue;
   padding: 5px 10px;
@@ -38,7 +43,7 @@ body {
     height: 100%;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .tour button {
     display: none;
   }
